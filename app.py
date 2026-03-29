@@ -72,14 +72,16 @@ st.markdown(f"""
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.06);
         border-left: 4px solid {FOREST_GREEN};
+        min-width: 0;
     }}
     .stat-card .value {{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         font-weight: 700;
         color: {FOREST_GREEN};
+        white-space: nowrap;
     }}
     .stat-card .label {{
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         color: #666;
     }}
 
